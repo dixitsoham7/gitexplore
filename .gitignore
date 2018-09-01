@@ -1,0 +1,7 @@
+#this is a comment
+
+#ignoring .js file to be accessed by git
+*.js 
+
+!app.js
+#ignore all .js file except app.js

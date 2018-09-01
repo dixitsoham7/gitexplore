@@ -1,0 +1,1 @@
+var const = "HIDING this file"
