@@ -5,3 +5,7 @@
 
 !app.js
 #ignore all .js file except app.js
+
+#add files to be ignored initially in .gitignore
+
+#if git is keeping track of files and you feel that i dont want git to do so and have also forgot to write that file in .gitignore initially then use rm --cached [filename]
