@@ -1,5 +1,7 @@
-Adding very important func here - onefun
+Adding one func ok here - onefun
 
 New div is added in master branch
 
 added a chart function in our branch
+
+adding new function to login user via X method
