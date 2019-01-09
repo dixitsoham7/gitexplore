@@ -1,7 +1,8 @@
 Adding very very important func here - onefun
 
+Adding one important function here - onefun
+
+
 New div is added in master branch
 
 added a chart function in our branch
-
-added a code for doing logout
