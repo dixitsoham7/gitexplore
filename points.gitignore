@@ -43,3 +43,5 @@ Command: git stash pop/apply stash@{[no]}
 15) to add a tag use git tag -a [ticket_name] -m "[your message]" [sha code of ur commit]
 
 16) to list all your tags use git tag -l -n
+
+17) git push origin --tags will push all tags to github
