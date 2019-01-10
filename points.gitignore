@@ -9,3 +9,37 @@
 #add files to be ignored initially in .gitignore
 
 #if git is keeping track of files and you feel that i dont want git to do so and have also forgot to write that file in .gitignore initially then use rm --cached [filename]
+
+1) git branch gives you current working branch with * sign before
+
+2) new branch can be created using git branch [new branch name]
+#avoid using punctuation symbols like @,space, etc
+
+3) switch to other branch using git checkout [branch name]
+
+4) to check difference between 2 branches, use git diff [branch_name]..[branch_name]
+
+5) to rename a branch use git branch -m [old_name] [new_name]
+
+6) to delete a branch use git branch -d [branch_name] 
+
+7) to merge a branch switch to a branch where u want changes 2 be received and use command git merge [branch_name]
+
+8) if you want to switch to other branch without commiting then you can stash it. stash is like a recycle bin. Syntax for stash is git stash save "[message]". After stasshing you can check status (it's clean) and easily you can change the branch now!
+
+9) to list all stash use git stash list
+
+10) to see what things are there in stash use: git stash show stash@{[no]}
+
+11) to see things of stash in detail use: git stash show -p stash@{[no]} 
+
+12) pop and apply are two ways to get things back from your stash. pop cuts the stash and bring it in file while apply copies the contents of stash, so if we use pop our stash created earlier is deleted while files are copied and if we use apply then contents are copied as well as stash remain as it was.
+Command: git stash pop/apply stash@{[no]}
+
+13) to delete a stash we can use: git stash drop stash@{[no]}
+
+14) to delete all stashes in one time use: git stash clear
+
+15) to add a tag use git tag -a [ticket_name] -m "[your message]" [sha code of ur commit]
+
+16) to list all your tags use git tag -l -n
